@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="deneme.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg menu">
+        <div class="container-fluid ">
+            <a class="navbar-brand text-white" href="index.html">AUDORA BEAUTY</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item me-4">
+                        <a class="nav-link active" aria-current="page" href="index.html">Anasayfa</a>
+                    </li>
+
+
+                    <li class="nav-item dropdown me-4">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  işlemlerimiz
+                </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="makyaj.html">makyaj</a></li>
+                            <li><a class="dropdown-item" href="ciltbakımı.html">ciltbakımı</a></li>
+
+
+                        </ul>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link" href="iletisim.html">İletişim</a>
+                    </li>
+
+
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!--contact us-->
+    <div class="">
+
+        <div class="row mb-20">
+            <div class="col-lg-10 mt-30 mx-auto ">
+                <div class="contact">
+                    <div class="google-map">
+                        <img src="img/iletisim.png" alt="" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+
+
+
+                        <form action="veri.php " method="POST" heighth="30px;">
+                            <h6 class="mt-5 fluid">İstediginiz Herhangi bir zamanda iletişim kurmaktan çekinmeyin.</h6>
+
+                            <div class="alert alert-success contact_msg" style="display: none" role="alert">
+                                Mesajınız başarılı bir şekilde gönderildi.
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="isim" id="isim" class="form-control" placeholder="isim" required="required">
+                            </div>
+
+                            <div class="form-group">
+                                <input type="email" name="email" id="email" class="form-control" placeholder="Email" required="required">
+                            </div>
+
+                            <div class="form-group">
+                                <input type="text" name="konu" id="konu" class="form-control" placeholder=" konu" required="required">
+                            </div>
+
+                            <div class="form-group">
+                                <textarea name="mesaj" id="mesaj" cols="30" rows="5" class="form-control" placeholder="mesaj" required="required"></textarea>
+                            </div>
+
+
+
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary">Gönder</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
+            <script src="js/popper.js"></script>
+            <script src="js/bootstrap.bundle.js"></script>
+            <script src="js/bootstrap.bundle.min.js"></script>
+
+            <script src="js/bootstrap.js"></script>
+</body>
+
+</html>
